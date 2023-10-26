@@ -2,7 +2,7 @@ from asteroid.masknn import TDConvNet
 from asteroid_filterbanks import make_enc_dec
 from dotmap import DotMap
 
-from de_limiter.base_models import BaseEncoderMaskerDecoderWithConfigsMaskOnOutput, \
+from music_de_limiter.base_models import BaseEncoderMaskerDecoderWithConfigsMaskOnOutput, \
     BaseEncoderMaskerDecoderWithConfigsMultiChannelAsteroid
 
 

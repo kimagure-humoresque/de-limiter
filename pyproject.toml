@@ -1,5 +1,5 @@
 [project]
-name = "de_limiter"
+name = "music-de-limiter"
 version = "0.1.0"
 authors = [
     { name = "Ishotihadus", email = "webmaster@ishotihadus.com" }

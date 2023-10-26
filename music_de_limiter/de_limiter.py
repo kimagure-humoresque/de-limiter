@@ -3,7 +3,7 @@ import pathlib
 
 import torch
 
-from de_limiter.load_models import load_model_with_args
+from music_de_limiter.load_models import load_model_with_args
 
 
 def load_pretrained_model(device=None):

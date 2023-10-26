@@ -2,4 +2,3 @@ asteroid
 dotmap
 einops
 torch
-torchaudio
