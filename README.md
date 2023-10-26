@@ -4,9 +4,19 @@ Derived from [the official repository](https://github.com/jeonchangbin49/De-limi
 
 ## Usage
 
+### Installation
+
+```sh
+$ pip install music-de-limiter
+```
+
+or
+
 ```sh
 $ pip install git+https://github.com/kimagure-humoresque/de-limiter
 ```
+
+### Usage
 
 ```python
 import music_de_limiter
