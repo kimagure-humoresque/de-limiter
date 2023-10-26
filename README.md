@@ -5,7 +5,7 @@ Derived from [the official repository](https://github.com/jeonchangbin49/De-limi
 ## Usage
 
 ```sh
-$ pip install git+https://github.com/Ishotihadus/de-limiter
+$ pip install git+https://github.com/kimagure-humoresque/de-limiter
 ```
 
 ```python
