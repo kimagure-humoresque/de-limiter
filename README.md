@@ -24,6 +24,8 @@ import torchaudio
 import soundfile as sf
 
 model, sr = music_de_limiter.load_pretrained_model()
+model.eval()
+
 wav, _ = torchaudio.sox_effects.apply_effects_file("input.wav", [["rate", "-vsL", f"{sr}"]])
 _, result, *_ = model(wav.unsqueeze(0))
 sf.write("output.wav", result.squeeze(0).detach().cpu().numpy().T, sr)
