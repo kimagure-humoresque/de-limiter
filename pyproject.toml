@@ -1,0 +1,10 @@
+[project]
+name = "de_limiter"
+version = "0.1.0"
+authors = [
+    { name = "Ishotihadus", email = "webmaster@ishotihadus.com" }
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }

@@ -1,0 +1,5 @@
+dotmap
+einops
+torch
+torchaudio
+git+https://github.com/asteroid-team/asteroid.git@master
