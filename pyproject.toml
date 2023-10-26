@@ -6,5 +6,9 @@ authors = [
 ]
 dynamic = ["dependencies"]
 
+[project.urls]
+"Homepage" = "https://github.com/kimagure-humoresque/de-limiter"
+"Bug Tracker" = "https://github.com/kimagure-humoresque/de-limiter/issues"
+
 [tool.setuptools.dynamic]
 dependencies = { file = ["requirements.txt"] }
