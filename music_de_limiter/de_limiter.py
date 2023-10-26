@@ -1,5 +1,5 @@
 import json
-import pathlib
+from importlib import resources
 
 import torch
 
@@ -16,7 +16,7 @@ def load_pretrained_model(device=None):
     else:
         device = "cpu"
 
-    base_dir = pathlib.Path(__file__).parent.absolute() / "pretrained"
+    base_dir = resources.files("music_de_limiter") / "pretrained"
 
     with open(base_dir / "args.json") as f:
         args = json.load(f)
